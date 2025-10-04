@@ -21,7 +21,7 @@ def determinar_ganador(usuario, computadora):
         return "Perdiste..."
 
 def jugar():
-    print("Bienvenido al juego Piedra, Papel o Tijera 🪨📄✂️")
+    print("Bienvenido al juego Piedra, Papel o Tijera")
     usuario = obtener_opcion_usuario()
     computadora = obtener_opcion_computadora()
     print(f"Tú elegiste: {usuario}")
